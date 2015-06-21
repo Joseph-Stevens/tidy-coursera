@@ -19,8 +19,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 * subjects_train.txt
 * X_train.txt
 * y_train.txt
-Ignore the other files, they're not necessary to create the dataset.
-
 3. Check if the dplyr package is installed. If it isn't, it needs to be.
 4. Copy the run_analysis.R file into the working directory. 
 5. Source the run_analysis.R file.
@@ -33,6 +31,4 @@ The multiple text files have been converted into one dataset with headers and wi
 
 The test and train datasets have been combined.
 
-The variables have been simplified to just ones containing "mean" and "std". The observations have been simplified to just the mean of a set of numbers with the header 
-
-changed to reflect that.
+The variables have been simplified to just ones containing "mean" and "std". The observations have been simplified to just the mean of a set of numbers with the header changed to reflect that.
