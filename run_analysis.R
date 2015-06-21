@@ -8,6 +8,10 @@
 
 # a txt file created with write.table() using row.name=FALSE
 
+# Run as a function
+
+run_analysis<-function(){
+  
 # Install dplyr
 
 library("dplyr")
@@ -81,3 +85,4 @@ Final<-arrange(End,Subject,Activity)
 # Output to file
 
 write.table(Final,"TidyData.txt",row.names=FALSE)
+}
