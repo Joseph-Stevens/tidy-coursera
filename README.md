@@ -11,14 +11,14 @@ Purpose: To make a dataset that conforms to the principles of tidy data.
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 2. The following files are needed in your working directory for run_analysis.R to function:
-* activity_labels.txt
-* features.txt
-* subjects_train.txt
-* X_test.txt
-* y_test.txt
-* subjects_train.txt
-* X_train.txt
-* y_train.txt
+  * activity_labels.txt
+  * features.txt
+  * subjects_train.txt
+  * X_test.txt
+  * y_test.txt
+  * subjects_train.txt
+  * X_train.txt
+  * y_train.txt
 3. Check if the dplyr package is installed. If it isn't, it needs to be.
 4. Copy the run_analysis.R file into the working directory. 
 5. Source the run_analysis.R file.
